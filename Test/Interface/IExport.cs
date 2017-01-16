@@ -1,6 +1,6 @@
-﻿using PingTest.Entity;
+﻿using cnblogs.Jackson0714.PingTest.Entity;
 
-namespace PingTest.Interface
+namespace cnblogs.Jackson0714.PingTest.Interface
 {
     public interface IExport
     {

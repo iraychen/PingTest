@@ -1,13 +1,13 @@
-﻿using PingTest.Interface;
+﻿using cnblogs.Jackson0714.Framework.Logging;
+using cnblogs.Jackson0714.PingTest.Entity;
+using cnblogs.Jackson0714.PingTest.Interface;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using PingTest.Entity;
-using Framework.Logging;
 
-namespace PingTest.Bussiness
+namespace cnblogs.Jackson0714.PingTest.Bussiness
 {
     public class LogFileReport : IExport
     {

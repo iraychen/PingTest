@@ -15,7 +15,7 @@ using log4net.Core;
 using Log4netLoggerManager = log4net.Core.LoggerManager;
 using System.Threading;
 
-namespace Framework.Logging
+namespace cnblogs.Jackson0714.Framework.Logging
 {
 
     public partial class Logger 

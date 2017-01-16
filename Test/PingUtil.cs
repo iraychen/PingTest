@@ -1,12 +1,7 @@
-﻿using Framework;
-using Framework.RetryScope;
-using System;
-using System.Collections.Generic;
-using System.Linq;
+﻿using System;
 using System.Text;
-using System.Threading.Tasks;
 
-namespace Test
+namespace cnblogs.Jackson0714.Test
 {
     public static class PingUtil
     {
@@ -37,7 +32,7 @@ namespace Test
             bool isConnected = true;
             try
             {
-                RetryScope.BeginRetry(retryInterval);
+                cnblogs.Jackson0714.RetryScope.RetryScope.BeginRetry(retryInterval);
                 do
                 {
                     try
@@ -58,12 +53,12 @@ namespace Test
                     }
                     catch (Exception ex)
                     {
-                        if (!RetryScope.HandleException(ex))
+                        if (!cnblogs.Jackson0714.RetryScope.RetryScope.HandleException(ex))
                         {
                             throw;
                         }
                     }
-                } while (RetryScope.Continue);
+                } while (cnblogs.Jackson0714.RetryScope.RetryScope.Continue);
 
             }
             catch (Exception cex)
@@ -73,7 +68,7 @@ namespace Test
 
             finally
             {
-                RetryScope.EndRetry(retryInterval);
+                cnblogs.Jackson0714.RetryScope.RetryScope.EndRetry(retryInterval);
             }
             return isConnected;
         }

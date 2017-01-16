@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PingTest.Bussiness
+namespace cnblogs.Jackson0714.PingTest.Bussiness
 {
     public class MessageConstant
     {

@@ -1,11 +1,11 @@
-﻿using PingTest.Entity;
+﻿using cnblogs.Jackson0714.PingTest.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PingTest
+namespace cnblogs.Jackson0714.PingTest
 {
     public static class NetworkSituationStatistic
     {

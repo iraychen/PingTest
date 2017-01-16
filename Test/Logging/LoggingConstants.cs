@@ -1,6 +1,6 @@
 using System;
 
-namespace Framework.Logging
+namespace cnblogs.Jackson0714.Framework.Logging
 {    
     internal static class LoggingConstants
     {             

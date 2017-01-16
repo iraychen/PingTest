@@ -2,10 +2,10 @@
 using System.Text;
 using System.Collections.Generic;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using PingTest;
-using PingTest.Entity;
+using cnblogs.Jackson0714.PingTest.Entity;
+using cnblogs.Jackson0714.PingTest;
 
-namespace PingTestUnitTest
+namespace cnblogs.Jackson0714.PingTestUnitTest
 {
     /// <summary>
     /// Summary description for UnitTest
@@ -80,7 +80,6 @@ namespace PingTestUnitTest
             TimeSpan actual = new TimeSpan(0, 0, 29);
             Assert.AreEqual(experted, actual);
         }
-
 
         [TestMethod]
         public void CalculateOfflineTotalDurationTestMethod()

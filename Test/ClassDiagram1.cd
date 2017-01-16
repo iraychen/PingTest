@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="cnblogs.Jackson0714.PingTest.ConsoleReport" BaseTypeListCollapsed="true">
+    <Position X="1.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bussiness\ConsoleReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.565" Collapsed="true" />
+  </Class>
+  <Class Name="cnblogs.Jackson0714.PingTest.Bussiness.LogFileReport" BaseTypeListCollapsed="true">
+    <Position X="3.25" Y="2.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAACAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Bussiness\LogFileReport.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.304" Collapsed="true" />
+  </Class>
+  <Interface Name="cnblogs.Jackson0714.PingTest.Interface.IExport">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interface\IExport.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

@@ -3,7 +3,7 @@ using System.Data.SqlClient;
 using System.Globalization;
 using System.Threading;
 
-namespace Framework.RetryScope
+namespace cnblogs.Jackson0714.RetryScope
 {
     public static class RetryScope
     {

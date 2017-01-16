@@ -7,10 +7,11 @@
     <ProjectGuid>{65AD0739-652B-4EC7-A3F2-4FCB81748D9C}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>PingTest</RootNamespace>
-    <AssemblyName>PingTest</AssemblyName>
-    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <RootNamespace>cnblogs.Jackson0714.PingTest</RootNamespace>
+    <AssemblyName>cnblogs.Jackson0714.PingTest</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -71,6 +72,7 @@
     <None Include="App.config">
       <SubType>Designer</SubType>
     </None>
+    <None Include="ClassDiagram1.cd" />
     <None Include="Config\logger.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>

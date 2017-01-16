@@ -1,11 +1,10 @@
-﻿using PingTest.Entity;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace PingTest.Entity
+namespace cnblogs.Jackson0714.PingTest.Entity
 {
     public class NetworkData
     {

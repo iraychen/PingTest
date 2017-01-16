@@ -10,7 +10,7 @@ using log4net.Repository;
 using log4net.Appender;
 using System.Linq;
 
-namespace Framework.Logging
+namespace cnblogs.Jackson0714.Framework.Logging
 {
     /// <summary>
     /// Controls the creation of logger.

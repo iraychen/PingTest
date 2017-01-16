@@ -1,17 +1,16 @@
 ﻿using log4net;
 using System;
 using System.Threading;
-using Framework.RetryScope;
-using Framework.Logging;
-using Framework.Machine;
 using System.IO;
-using PingTest.Entity;
 using System.Collections.Generic;
-using PingTest;
-using PingTest.Bussiness;
+using cnblogs.Jackson0714.Framework.Logging;
+using cnblogs.Jackson0714.PingTest.Entity;
+using cnblogs.Jackson0714.Machine;
+using cnblogs.Jackson0714.PingTest;
+using cnblogs.Jackson0714.PingTest.Bussiness;
 
 [assembly: log4net.Config.XmlConfigurator(Watch = true)]
-namespace Test
+namespace cnblogs.Jackson0714.Test
 {
     class Program
     {
@@ -25,11 +24,6 @@ namespace Test
 
         private static string log1FileName = "PingTest_Target1.txt";
         private static string log2FileName = "PingTest_Target2.txt";
-
-        private static string targetIP1Connecting = "targetIP1Connecting";
-        private static string targetIP2Connecting = "targetIP2Connecting";
-        private static string targetIP1DisConnected = "targetIP1DisConnected";
-        private static string targetIP2DisConnected = "targetIP2DisConnected";
 
         private static NetworkStatus targetIP1lastStatus = NetworkStatus.Unknown;
         private static NetworkStatus targetIP2lastStatus = NetworkStatus.Unknown;

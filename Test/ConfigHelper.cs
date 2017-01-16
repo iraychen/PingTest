@@ -1,8 +1,7 @@
 ﻿using System.Configuration;
-using System.Windows;
 using System.Xml;
 
-namespace Test
+namespace cnblogs.Jackson0714.Test
 {
     public static class ConfigHelper
     {

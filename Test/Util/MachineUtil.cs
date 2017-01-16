@@ -5,7 +5,7 @@ using System.Linq;
 using System.Net;
 using System.Text;
 
-namespace Framework.Machine
+namespace cnblogs.Jackson0714.Machine
 {
     public class MachineUtil
     {
